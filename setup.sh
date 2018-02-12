@@ -41,3 +41,5 @@ echo "******** http://forum-micmac.forumprod.com  **********"
 echo "******** Edit by Sylvain POULAIN for Docker **********"
 echo "********    <sylvain.poulain@giscan.com>    **********"
 echo "*******************************************************"
+export PATH=/micmac/bin/:$PATH
+
