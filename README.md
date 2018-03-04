@@ -30,6 +30,10 @@ Then you could launch CLI binaries from docker with
 
 `docker run -it giscan/micmac mm3d`
 
+** mapping host directory to container /home/ **
+mkdir -p mmac
+docker run -it --rm -v $(pwd)/mmac:/home  yjmenezes/micmac
+
 Watch your container : 
 
 `docker images`
