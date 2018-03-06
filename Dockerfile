@@ -12,5 +12,7 @@ ADD update_micmac.sh /update_micmac.sh
 RUN chmod +x /setup.sh
 RUN chmod +x /update_micmac.sh
 RUN /setup.sh
+RUN pip install --upgrade pip
+RUN pip install pyproj
 #Mount /home (persistent data)
 VOLUME /home
