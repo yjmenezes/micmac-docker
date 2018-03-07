@@ -20,7 +20,7 @@ I use Archlinux and building is a bit complicated. There is a user repository na
 
 
 
-**How to run micmac-docker container ?**
+**How to install docker under Debian ?**
 
 First you have to install docker and build the container by typing in a terminal :
 
@@ -40,6 +40,7 @@ docker run hello-world
 
 docker run hello-world
 
+**How to build and run micmac-docker container ? **
 
 `docker build -t giscan/micmac git://github.com/giscan/micmac-docker`
 
