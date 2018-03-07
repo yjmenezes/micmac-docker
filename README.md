@@ -36,6 +36,10 @@ mkdir -p mmac
 
 docker run -it --rm -v $(pwd)/mmac:/home  yjmenezes/micmac
 
+than:
+
+export PATH=/micmac/bin/:$PATH
+
 Watch your container : 
 
 `docker images`
