@@ -22,7 +22,24 @@ I use Archlinux and building is a bit complicated. There is a user repository na
 
 **How to run micmac-docker container ?**
 
-First you have to build the container by typing in a terminal :
+First you have to install docker and build the container by typing in a terminal :
+
+apt-get update && apt-get install docker-ce
+
+#to avoid sudo when running docker
+
+sudo gpasswd -a $USER docker
+
+source ~/.bashrc
+
+id
+
+#test docker instalation with:
+
+docker run hello-world
+
+docker run hello-world
+
 
 `docker build -t giscan/micmac git://github.com/giscan/micmac-docker`
 
