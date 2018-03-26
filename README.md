@@ -34,6 +34,8 @@ source ~/.bashrc
 
 id
 
+docker ls
+
 #test docker instalation with:
 
 docker run hello-world
@@ -51,6 +53,8 @@ Then you could launch CLI binaries from docker with
 ** mapping host directory to container /home/ **
 
 mkdir -p mmac
+
+#local mmac mapped as docker /home
 
 docker run -it --rm -v $(pwd)/mmac:/home  yjmenezes/micmac
 
