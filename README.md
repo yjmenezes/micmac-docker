@@ -33,6 +33,7 @@ sudo gpasswd -a $USER docker
 source ~/.bashrc
 
  #login into docker group
+ 
  newgrp docker
 
 id
